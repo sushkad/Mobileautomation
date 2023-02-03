@@ -89,7 +89,7 @@ public class Appointment1 extends AppointmentXPath
 		WebElement lab = d.findElement(By.id("appointment_organisation_details_organisation"));
 		selectValueFromDropDown(lab,"Billion To One");
 		Thread.sleep(300);
-		d.findElement(By.xpath(UNITYlab)).click();
+	//	d.findElement(By.xpath(UNITYlab)).click();
 		System.out.println("Select UNITY Lab kit");
 		Thread.sleep(300);
 
